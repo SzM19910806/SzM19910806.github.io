@@ -4,50 +4,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Étterem</title>
+    <title>Document</title>
+
+    <link rel="stylesheet" href="Stílusok/style.css">
 </head>
 
 <body>
-    <ul>
-        <li>
-            <a href="/index.html">Home</a>
-        </li>
-        <li>
-            <a href="/pages/products.html">Products</a>
-        </li>
-        <li>
-            <a href="/pages/orders.html">Orders</a>
-        </li>
-        <li>
-            <a href="/about.html">About</a>
-        </li>
-    </ul>
-    <h1>
-        Üdvözöljük az éttermünk honlapján!
-    </h1>
-    <ul>
-        <li>Húsimádó</li>
-        <li>Vegetáriánus</li>
-        <li>Piedone</li>
-        
-    </ul>
-    <h2>
-        Italok
-    </h2>
-    <ol>
-        <li>Coca-Cola</li>
-        <li>Pepsi</li>
-        <li>Fanta</li>
-    </ol>
+    <h1>Üdv Programozó!</h1>
 
-    <a href="http://hintalo-etterem-siofok.hu/pizza/">
-        Hintaló étterem
-    </a>
-    <a href="pages/orders.html">orders</a>
-    <a target="blank" href="http://hintalo-etterem-siofok.hu/pizza/">
-        <img width="56" src="img\hambi2.jpg" alt="Ízletes burger">
-    </a>
+    <h3 id="bio-header">Bio</h3>
 
-    <img src="img/hambi2.jpg" alt="Ízletes burger" </body>
+    <p class="content">
+        <span class="bold">John Doe.</span> Programozó a Google-nél.</p>
+
+    <h3 id="skills-header">Skills</h3>
+
+    <p class="content">A Lorem Ipsum egy egyszerû szövegrészlete, szövegutánzata a betûszedõ és nyomdaiparnak. A Lorem
+        Ipsum az 1500-as évek óta standard szövegrészletként szolgált az iparban; mikor egy ismeretlen nyomdász
+        összeállította a betûkészletét és egy példa-könyvet vagy szöveget nyomott papírra, ezt használta. Nem csak 5
+        évszázadot élt túl, de az elektronikus betûkészleteknél is változatlanul megmaradt. Az 1960-as években
+        népszerûsítették a Lorem Ipsum részleteket magukbafoglaló Letraset lapokkal, és legutóbb softwarekkel mint
+        például az Aldus Pagemaker.</p>
+
+    <p>Images</p>
+    <div class="img-div">
+        <img id="img1" src="img\programmer.jpg" alt="Programozó">
+        <img src="img\programmer.jpg" alt="Programozó2">
+        <img src="img\programmer.jpg" alt="Programozó3">
+        <img src="img\programmer.jpg" alt="Programozó4">
+        <img src="img\programmer.jpg" alt="Programozó5">
+        <img src="img\programmer.jpg" alt="Programozó6">
+        <img src="img\programmer.jpg" alt="Programozó7">
+    </div>
+
+    <h3>Login</h3>
+    <div class="login-div">
+        <div class="form-group">
+            <label>Email</label>
+            <input class="form-control" type="email" name="email">
+        </div>
+        <div class="form-group">
+            <label>Password</label>
+            <input class="form-control" type="password" name="password">
+        </div>
+        <div class="form-group">
+            <button class="submit-btn">Login</button>
+        </div>
+
+    </div>
+
+    <ul>
+        <li>Kenyér</li>
+        <li>Tej</li>
+        <li>Szotyi</li>
+    </ul>
+    
+</body>
 
 </html>
